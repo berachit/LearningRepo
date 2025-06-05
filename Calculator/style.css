@@ -1,0 +1,145 @@
+body{
+    background-color: #6E4C5B  ;
+}
+#container {
+  height: 600px;
+  width: 500px;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 3px;
+  margin: auto;
+  margin-top: 60px;
+  background-color: #0b0c2a;
+}
+
+#displayScreen {
+    text-align: end;
+    font-size: 6rem;
+  height: 8rem;
+  width: 28rem;
+  border-style: solid;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: #1f1f2e;
+  color: #fdf6e3;
+}
+
+#keys {
+  margin: auto;
+  text-align: center;
+}
+
+.key {
+  font-size: 25px;
+  margin: 10px;
+  margin-top: 20px;
+  height: 60px;
+  width: 100px;
+  border-radius: 30px;
+  /* border: 2px solid black; */
+  text-align: center;
+  border: 1px solid #d4af37;
+  box-shadow: 0 2px 6px rgba(212, 175, 55, 0.3);
+}
+#backspace {
+  font-size: 28px;
+}
+
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine,
+#zero,#decimal {
+  background-color: rgba(241, 227, 211, .8);
+  color: #0d0d0d;
+}
+#one:hover,
+#two:hover,
+#three:hover,
+#four:hover,
+#five:hover,
+#six:hover,
+#seven:hover,
+#eight:hover,
+#nine:hover,
+#zero:hover,#decimal:hover {
+  background-color: rgba(241, 227, 211, .65);
+}
+#one:active,
+#two:active,
+#three:active,
+#four:active,
+#five:active,
+#six:active,
+#seven:active,
+#eight:active,
+#nine:active,
+#zero:active,#decimal:active {
+  background-color: rgba(241, 227, 211, .5);
+}
+#equal {
+    background-color: rgba(212, 175, 55, 0.8);
+    color: #0d0d0d;
+}
+#equal:hover {
+    background-color: rgba(212, 175, 55, 0.65);
+}
+#equal:active {
+    background-color: rgba(212, 175, 55, 0.5);
+}
+#clear {
+    background-color: rgba(158, 42, 43, 0.8);
+}
+#clear:hover {
+    background-color: rgba(158, 42, 43, 0.65);
+}
+#clear:active {
+    background-color: rgba(158, 42, 43, 0.5);
+}
+#plus,
+#divide,
+#mult,
+#minus {
+    color: #0d0d0d;
+    background-color: rgba(135, 206, 250, 0.8);
+}
+#plus:hover,
+#divide:hover,
+#mult:hover,
+#minus:hover {
+    background-color: rgba(135, 206, 250, 0.65);
+}
+#plus:active,
+#divide:active,
+#mult:active,
+#minus:active {
+    background-color: rgba(135, 206, 250, 0.5);
+}
+#backspace{
+    color: #0d0d0d;
+    background-color: rgba(216, 178, 209, 0.8);
+}
+#backspace:hover{
+    background-color: rgba(216, 178, 209, 0.65);
+}
+#backspace:active{
+    background-color: rgba(216, 178, 209, 0.5);
+}
+
+#openP,#closeP{
+    color: #0d0d0d;
+    background-color: rgba(110, 76, 91, 0.8);
+}
+#openP:hover,#closeP:hover{
+    background-color: rgba(110, 76, 91, 0.65);
+}
+#openP:active,#closeP:active{
+    background-color: rgba(110, 76, 91, 0.5);
+}
+
